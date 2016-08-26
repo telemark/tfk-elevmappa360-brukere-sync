@@ -5,7 +5,7 @@
     "lastName": "Testen",
     "fullName": "Testine Testen",
     "personalIdNumber": "10",
-    "departmentId": "SKIVS",
+    "departmentId": "KRAVS",
     "mobilePhone": null,
     "mail": "Testine.Testen@t-fk.no",
     "privateMail": "Testine.Testen@example.com"
@@ -27,7 +27,7 @@
     "lastName": "Testen",
     "fullName": "Testine Testen",
     "personalIdNumber": "30",
-    "departmentId": "SKIVS",
+    "departmentId": "KRAVS",
     "mobilePhone": null,
     "mail": "Testine.Testen@t-fk.no",
     "privateMail": "Testine.Testen@example.com"
