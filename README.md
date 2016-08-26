@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/telemark/tfk-elevmappa360-brukere-sync.svg?branch=master)](https://travis-ci.org/telemark/tfk-elevmappa360-brukere-sync)
+[![Coverage Status](https://coveralls.io/repos/telemark/tfk-elevmappa360-brukere-sync/badge.svg?branch=master&service=github)](https://coveralls.io/github/telemark/tfk-elevmappa360-brukere-sync?branch=master)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 # tfk-elevmappa360-brukere-sync
 Synkronisering av brukere mellom Buddy og 360.
 
