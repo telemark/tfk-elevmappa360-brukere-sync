@@ -46,4 +46,4 @@ tap.throws(
   'Throws if options.data not an array'
 )
 
-tap.equal(usersToAdd.length, 1, 'It finds the correct users to add')
+tap.equal(usersToAdd.length, 2, 'It finds the correct users to add')

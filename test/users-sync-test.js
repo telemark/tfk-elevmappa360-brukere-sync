@@ -48,6 +48,6 @@ tap.throws(
 
 tap.equal(usersToSync.removes.length, 1, 'It finds the correct users to remove')
 
-tap.equal(usersToSync.adds.length, 1, 'It finds the correct users to add')
+tap.equal(usersToSync.adds.length, 2, 'It finds the correct users to add')
 
-tap.equal(usersToSync.updates.length, 1, 'It finds the correct users to update')
+tap.equal(usersToSync.updates.length, 3, 'It finds the correct users to update')

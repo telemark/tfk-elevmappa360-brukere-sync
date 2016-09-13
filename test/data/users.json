@@ -1,57 +1,30 @@
 [
   {
-    "firstName": "Testine",
-    "middleName": null,
-    "lastName": "Testen",
-    "fullName": "Testine Testen",
-    "personalIdNumber": "10",
-    "departmentId": "KRAVS",
-    "mobilePhone": null,
-    "mail": "Testine.Testen@t-fk.no",
-    "privateMail": "Testine.Testen@example.com"
+    "role": "Lærer",
+    "name": "Guest User",
+    "userId": "GuestUser",
+    "enterpriseNumber1": "974568039",
+    "enterpriseNumber2": null
   },
   {
-    "firstName": "Testine",
-    "middleName": null,
-    "lastName": "Testen",
-    "fullName": "Testine Testen",
-    "personalIdNumber": "20",
-    "departmentId": "SKIVS",
-    "mobilePhone": null,
-    "mail": "Testine.Testen@t-fk.no",
-    "privateMail": "Testine.Testen@example.com"
+    "role": "Lærer",
+    "name": "Testine Testen",
+    "userId": "01016102",
+    "enterpriseNumber1": "974568039",
+    "enterpriseNumber2": null
   },
   {
-    "firstName": "Testine",
-    "middleName": null,
-    "lastName": "Testen",
-    "fullName": "Testine Testen",
-    "personalIdNumber": "30",
-    "departmentId": "KRAVS",
-    "mobilePhone": null,
-    "mail": "Testine.Testen@t-fk.no",
-    "privateMail": "Testine.Testen@example.com"
+    "role": "Lærer",
+    "name": "Jonatan Midtsidepiker",
+    "userId": "jomid",
+    "enterpriseNumber1": "974568098",
+    "enterpriseNumber2": null
   },
   {
-    "firstName": "Testine",
-    "middleName": null,
-    "lastName": "Testen",
-    "fullName": "Testine Testen",
-    "personalIdNumber": "40",
-    "departmentId": "SKIVS",
-    "mobilePhone": null,
-    "mail": "Testine.Testen@t-fk.no",
-    "privateMail": "Testine.Testen@example.com"
-  },
-  {
-    "firstName": "Testine",
-    "middleName": null,
-    "lastName": "Testen",
-    "fullName": "Testine Testen",
-    "personalIdNumber": "50",
-    "departmentId": "SKIVS",
-    "mobilePhone": null,
-    "mail": "Testine.Testen@t-fk.no",
-    "privateMail": "Testine.Testen@example.com"
+    "role": "Lærer",
+    "name": "Ulla Norakk",
+    "userId": "ulnor",
+    "enterpriseNumber1": "974568179",
+    "enterpriseNumber2": null
   }
 ]
