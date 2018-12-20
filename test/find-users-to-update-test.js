@@ -4,45 +4,45 @@ const tap = require('tap')
 const findUsersToUpdate = require('../lib/find-users-to-update')
 const teachers = require('./data/teachers.json')
 const users = require('./data/users.json')
-const usersToUpdate = findUsersToUpdate({masterdata: teachers, data: users})
+const usersToUpdate = findUsersToUpdate({ masterdata: teachers, data: users })
 
 tap.throws(
   function () {
     findUsersToUpdate()
   },
-  {message: 'Missing required input: options'},
+  { message: 'Missing required input: options' },
   'Throws if options not supplied'
 )
 
 tap.throws(
   function () {
-    findUsersToUpdate({masterdata: false})
+    findUsersToUpdate({ masterdata: false })
   },
-  {message: 'Missing required input: options.masterdata'},
+  { message: 'Missing required input: options.masterdata' },
   'Throws if options.masterdata not supplied'
 )
 
 tap.throws(
   function () {
-    findUsersToUpdate({masterdata: true})
+    findUsersToUpdate({ masterdata: true })
   },
-  {message: 'Invalid format options.masterdata must be an array'},
+  { message: 'Invalid format options.masterdata must be an array' },
   'Throws if options.masterdata not an array'
 )
 
 tap.throws(
   function () {
-    findUsersToUpdate({masterdata: [], data: false})
+    findUsersToUpdate({ masterdata: [], data: false })
   },
-  {message: 'Missing required input: options.data'},
+  { message: 'Missing required input: options.data' },
   'Throws if options.data not supplied'
 )
 
 tap.throws(
   function () {
-    findUsersToUpdate({masterdata: [], data: true})
+    findUsersToUpdate({ masterdata: [], data: true })
   },
-  {message: 'Invalid format options.data must be an array'},
+  { message: 'Invalid format options.data must be an array' },
   'Throws if options.data not an array'
 )
 
